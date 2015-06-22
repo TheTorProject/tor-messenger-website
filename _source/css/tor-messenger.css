@@ -1,0 +1,65 @@
+body {
+  background-color: #173806;
+  font-family: Arial, sans-serif;
+  font-size: 1.6em;
+  color: #447112;
+}
+
+a {
+  color: #accb29;
+}
+
+.container {
+  max-width: 750px;
+}
+
+.row {
+  margin: 2em 0;
+}
+
+.img-center {
+  margin: 0 auto;
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.security {
+  color: #173806;
+  background-color: #accb29;
+}
+
+.security h3 {
+  color: #ffffff;
+}
+
+.easy {
+  color: #173806;
+  background-color: #447112;
+}
+
+.easy h3 {
+  color: #ffffff;
+}
+
+.download {
+  color: #ffffff;
+}
+
+.download-button {
+  max-width: 200px;
+  margin-top: 2em;
+}
+
+.powered-by-tor {
+  background-color: #ffffff;
+}
+
+@media (min-width: 750px) {
+  .powered-by-tor {
+    position: absolute;
+    right: 3em;
+    z-index: 100;
+  }
+}
